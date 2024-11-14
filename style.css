@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Young Serif";
+}
+span{
+    font-family: "outfit";
+}
+
+hr{
+    margin-top: 2%;
+}
+
+body{
+    background-color: #F3E5D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+    border-radius: 0.95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front{
+    width: 50vw;
+    margin-top: 6vh;
+    border-radius: 40px;
+}
+
+.txt{
+    width: 85%;
+}
+
+.txt h1{
+    color: hsl(24, 5%, 18%);
+    margin-top: 5vh;
+}
+
+.name{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.p p{
+    font-size: 16px;
+    font-family: "outfit";
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.p{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.75%;
+    padding-bottom: 1.75%;
+}
+
+.prep{
+    width: 50vw;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.7vw;
+    margin-top: 2.5%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+.prep h2{
+    color: hsl(332, 51%, 32%);
+    font-family: "outfit";
+    font-weight: 600;
+}
+
+.prep ul{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.prep ul li{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.prep ul li .abt-txt{
+    margin-left: 3%;
+}
+
+.prep ul li span{
+    color: hsl(30, 10%, 34%);
+}
+
+.rest{
+    font-weight: 300;
+}
+
+.ingri{
+    width: 50vw;
+    margin-top: 4%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+.ingri ul{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.ingri ul li span{
+    margin-left: 4%;
+    color: hsl(30, 10%, 34%);
+}
+
+.ins{
+    width: 50vw;
+    margin-top: 4%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    margin-bottom: 3%;
+    font-family: "outfit";
+}
+
+.ins ol{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.ins ol li .bold-ul{
+    margin-left: 4%;
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.next{
+    margin-left: 2vw;
+}
+
+.nutrition{
+    width: 50vw;
+    margin-top: 2vw;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 3%;
+    font-family: "outfit";
+}
+
+.nutrition p{
+    margin-top: 1.5vw;
+    margin-bottom: 3%;
+    font-family: "outfit";
+    font-weight: 400;
+}
+
+.nutrition .cal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "outfit";
+}
+
+.nutrition .naam{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition .naam h5{
+    font-family: "outfit";
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nutrition .val{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nutrition .val h5{
+    font-family: "outfit";
+}
+
+.nutrition hr{
+    margin-bottom: 1vw;
+}
+
+
+@media (max-width: 600px){
+    hr{
+        margin-top: 2%;
+    }
+    
+    body{
+        background-color: #F3E5D8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container{
+        background-color: #fff;
+        width: 100%;
+        padding-bottom: 2%;
+        border-radius: 0.95vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .front{
+        width: 95vw;
+        height: 30vh;
+        margin-top: 6vh;
+        border-radius: 40px;
+    }
+    
+    .txt{
+        width: 98%;
+    }
+    
+    .txt h1{
+        color: hsl(24, 5%, 18%);
+        margin-top: 5vh;
+    }
+    
+    .name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .p p{
+        font-size: 16px;
+        font-family: "outfit";
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .p{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.75%;
+        padding-bottom: 1.75%;
+    }
+    
+    .prep{
+        width: 90%;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 0.7vw;
+        margin-top: 2.5%;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+        margin-left: 4%;
+    }
+    
+    .prep h2{
+        color: hsl(332, 51%, 32%);
+        font-family: "outfit";
+        font-weight: 600;
+    }
+    
+    .prep ul{
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    .prep ul li{
+        color: hsl(332, 51%, 32%);
+        font-weight: 600;
+    }
+    
+    .prep ul li .abt-txt{
+        margin-left: 3%;
+    }
+    
+    .prep ul li span{
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .rest{
+        font-weight: 300;
+    }
+    
+    .ingri{
+        width: 95%;
+        margin-top: 4%;
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        margin-bottom: 3%;
+        margin-left: 2%;
+    }
+    
+    .ingri ul{
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    .ingri ul li span{
+        margin-left: 4%;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .ins{
+        width: 95%;
+        margin-top: 4%;
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        margin-bottom: 3%;
+        font-family: "outfit";
+        margin-left: 2%;
+    }
+    
+    .ins ol{
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5vw;
+    }
+    
+    .ins ol li .bold-ul{
+        margin-left: 4%;
+        color: hsl(30, 10%, 34%);
+        font-weight: 700;
+    }
+    
+    .next{
+        margin-left: 2vw;
+    }
+    
+    .nutrition{
+        width: 95%;
+        margin-top: 4vh;
+        color: hsl(14, 45%, 36%);
+        margin-bottom: 5vh;
+        font-family: "outfit";
+    }
+    
+    .nutrition p{
+        margin-top: 1.5vw;
+        margin-bottom: 3%;
+        font-family: "outfit";
+        font-weight: 400;
+        margin-bottom: 5vh;
+    }
+    
+    .nutrition .cal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: "outfit";
+    }
+    
+    .nutrition .naam{
+        width: 40%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .nutrition .naam h5{
+        font-family: "outfit";
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    .nutrition .val{
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nutrition .val h5{
+        font-family: "outfit";
+    }
+    
+    .nutrition hr{
+        margin-bottom: 1vw;
+    }
+    
+}
